@@ -1,5 +1,7 @@
 $(function(){
 
+    $('.width-screen').html($(window).width())
+
     let heightBg = $('.header__bg-image').width() / 2,
         heightForHeader = (heightBg - $(window).height()) + $(window).height();
     
