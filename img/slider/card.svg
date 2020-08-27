@@ -1,0 +1,19 @@
+<svg id="a054c456-7a0d-40ab-86f9-3bf4f8cf92f7" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1382.21643 744.30649">
+  <defs>
+    <clipPath id="ade935b6-6e23-4a81-ae5c-6feca4808c13" transform="translate(162.59849 -17.77137)">
+      <rect id="add51983-5520-420c-918e-cac021231827" data-name="Прямоугольник 15-2" x="25.05273" y="45.36303" width="765.89454" height="452.27393" rx="22.00846" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>card</title>
+  <rect id="b91c9562-707c-43de-a323-86b14469ae64" data-name="Прямоугольник 15-2" x="187.65122" y="27.59166" width="765.89454" height="452.27393" rx="22.00846" fill="#4487ff"/>
+  <g opacity="0.28">
+    <g clip-path="url(#ade935b6-6e23-4a81-ae5c-6feca4808c13)">
+      <path id="b3d5aa2d-a322-48a6-8c3f-85e44855af31" data-name="Контур 258" d="M174.0348,47.99117S-20.9643,163.18141,290.8039,347.67112s780.6242,99.41545,791.84583,337.08208S-162.59849,536.36383-162.59849,536.36383L-67.6231,17.77137Z" transform="translate(162.59849 -17.77137)" fill="#40067e" opacity="0.3" style="isolation: isolate"/>
+    </g>
+  </g>
+  <g opacity="0.21">
+    <g clip-path="url(#ade935b6-6e23-4a81-ae5c-6feca4808c13)">
+      <path id="e3380b94-c672-4714-b93e-e2102befa7aa" data-name="Контур 260" d="M190.69539,30.06372S25.90972,185.43143,370.6947,296.60329s783.32478-75.23207,846.69707,154.10459S-29.91489,580.66424-29.91489,580.66424L-51.67583,53.89586Z" transform="translate(162.59849 -17.77137)" fill="#40067e" opacity="0.3" style="isolation: isolate"/>
+    </g>
+  </g>
+</svg>

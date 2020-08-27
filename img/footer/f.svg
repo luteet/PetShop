@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Эллипс_22" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <circle id="Эллипс_26" data-name="Эллипс 26" cx="20" cy="20" r="20" transform="translate(1388 5025)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_86" data-name="Сгруппировать 86" transform="translate(-1379 -5019)">
+    <g transform="matrix(1, 0, 0, 1, 1379, 5019)" filter="url(#Эллипс_22)">
+      <circle id="Эллипс_22-2" data-name="Эллипс 22" cx="20" cy="20" r="20" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Группа_масок_9" data-name="Группа масок 9" clip-path="url(#clip-path)">
+      <path id="facebook" d="M10.853,13.937h2.518v9.312a.75.75,0,0,0,.75.75h4.007a.75.75,0,0,0,.75-.75V13.938h2.387a.75.75,0,0,0,.744-.657l.5-4a.751.751,0,0,0-.744-.843H18.878c.113-2.471-.435-3.2,1.172-3.2,1.088-.13,2.8.421,2.8-.75V.909a.75.75,0,0,0-.648-.743A26.926,26.926,0,0,0,19.112,0c-7.01,0-5.567,7.772-5.74,8.437H10.853a.75.75,0,0,0-.75.75v4a.75.75,0,0,0,.75.75Zm.75-4h2.518a.75.75,0,0,0,.75-.75V6.037c0-2.883,1.545-4.536,4.24-4.536.878,0,1.686.043,2.242.087V3.737c-.4.205-3.976-.884-3.976,2.7V9.189a.75.75,0,0,0,.75.75h2.786l-.312,2.5H18.127a.75.75,0,0,0-.75.75V22.5H14.872V13.188a.75.75,0,0,0-.75-.75H11.6Z" transform="translate(1391.197 5033.389)" fill="#b1bbcd"/>
+    </g>
+  </g>
+</svg>

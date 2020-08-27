@@ -1,0 +1,43 @@
+<svg id="ad53cf6f-125d-4a01-9ef2-27e6a41fe9dd" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2086 616">
+  <defs>
+    <clipPath id="aba2de82-1db8-4a8b-9e82-4afa67c33e54" transform="translate(79.97895 88.36842)">
+      <rect id="e827f64a-dc89-451a-a1be-de0e66204123" data-name="Прямоугольник 15-2" x="4.90526" width="1364" height="462" rx="20" fill="none"/>
+    </clipPath>
+    <clipPath id="b7b13b44-08a9-44bb-a6cb-78ac1c754959" transform="translate(79.97895 88.36842)">
+      <rect x="-79.97895" y="-88.36842" width="1666" height="616" fill="none"/>
+    </clipPath>
+    <linearGradient id="acb9a319-7e93-4a71-ad8e-df9e80a028c1" data-name="Безымянный градиент" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -357944.02105, 165285.36842)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2970f1"/>
+      <stop offset="1" stop-color="#153879" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ee298173-c3db-4142-a80d-e88cf7589cb3" data-name="Безымянный градиент 2" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -357734.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="efcd1897-1ffa-4f05-b3f0-82f51e64622a" data-name="Безымянный градиент 3" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -357524.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="f55b67a1-3f40-468d-9de3-37dca6b9a968" data-name="Безымянный градиент 4" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -357314.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="a0bdda6a-a3c1-4585-88be-27f9c5b655a6" data-name="Безымянный градиент 5" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -357104.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="fa8db37a-7850-411c-8504-3c1c12ac89cd" data-name="Безымянный градиент 6" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -356894.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="a5e99503-9f44-40e3-b3e0-689537b9a15f" data-name="Безымянный градиент 7" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -356684.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+    <linearGradient id="b8f83434-c9b3-4690-bffc-53b5a138cf03" data-name="Безымянный градиент 8" x1="581.07844" y1="267.84253" x2="581.86844" y2="267.80753" gradientTransform="matrix(616, 0, 0, -616, -356474.02105, 165285.36842)" xlink:href="#acb9a319-7e93-4a71-ad8e-df9e80a028c1"/>
+  </defs>
+  <title>Fetch</title>
+  <g id="b96a6e8c-b5b6-47b5-aa35-b5160f1d52cf" data-name="Сгруппировать 51">
+    <rect id="b17696de-fbcd-4380-802d-c49a52ccb67e" data-name="Прямоугольник 15-2" x="79.97895" y="88.36842" width="1364" height="462" rx="20" fill="#4487ff"/>
+  </g>
+  <g clip-path="url(#aba2de82-1db8-4a8b-9e82-4afa67c33e54)">
+    <g id="bc64ad02-56cc-4b13-b42d-5a6b16d0035a" data-name="Группа масок 18" opacity="0.3">
+      <g id="ab1d63e5-214b-4d72-bdaa-b46a6bc528ba" data-name="Сгруппировать 97">
+        <g clip-path="url(#b7b13b44-08a9-44bb-a6cb-78ac1c754959)">
+          <g id="f4d06488-670b-45d8-9b4b-9f1bcff06e1b" data-name="Повторить сетку 1">
+            <circle id="f349543d-1041-4aba-b048-341a31a74ffe" data-name="Эллипс 31" cx="308" cy="308" r="308" opacity="0.3" fill="url(#acb9a319-7e93-4a71-ad8e-df9e80a028c1)" style="isolation: isolate"/>
+            <circle id="a31a9a40-34e1-4635-8326-cc2fd4fcf3d4" data-name="Эллипс 31-2" cx="518" cy="308" r="308" opacity="0.3" fill="url(#ee298173-c3db-4142-a80d-e88cf7589cb3)" style="isolation: isolate"/>
+            <circle id="a9f0a178-9def-4600-8b91-b536bfb5efeb" data-name="Эллипс 31-3" cx="728" cy="308" r="308" opacity="0.3" fill="url(#efcd1897-1ffa-4f05-b3f0-82f51e64622a)" style="isolation: isolate"/>
+            <circle id="e756e162-7753-44f1-ad27-5bd9b1d8bb6c" data-name="Эллипс 31-4" cx="938" cy="308" r="308" opacity="0.3" fill="url(#f55b67a1-3f40-468d-9de3-37dca6b9a968)" style="isolation: isolate"/>
+            <circle id="bed95046-444a-4eb3-ad30-2685a2cfbe1d" data-name="Эллипс 31-5" cx="1148" cy="308" r="308" opacity="0.3" fill="url(#a0bdda6a-a3c1-4585-88be-27f9c5b655a6)" style="isolation: isolate"/>
+            <circle id="b4c3d0ba-676f-4d6e-83ce-8d5b2b808ff0" data-name="Эллипс 31-6" cx="1358" cy="308" r="308" opacity="0.3" fill="url(#fa8db37a-7850-411c-8504-3c1c12ac89cd)" style="isolation: isolate"/>
+            <circle id="b8b182f2-e84a-4676-9441-95c10f769b25" data-name="Эллипс 31-7" cx="1568" cy="308" r="308" opacity="0.3" fill="url(#a5e99503-9f44-40e3-b3e0-689537b9a15f)" style="isolation: isolate"/>
+            <circle id="b7b8dbf8-af90-4f8d-9ecc-26026321947c" data-name="Эллипс 31-8" cx="1778" cy="308" r="308" opacity="0.3" fill="url(#b8f83434-c9b3-4690-bffc-53b5a138cf03)" style="isolation: isolate"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
