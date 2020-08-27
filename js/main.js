@@ -1,12 +1,12 @@
 $(function(){
 
-    $('.width-screen').html($(window).width())
+    //$('.width-screen').html($(window).width())
 
     let heightBg = $('.header__bg-image').width() / 2,
         heightForHeader = (heightBg - $(window).height()) + $(window).height();
     
-        if(heightForHeader >= 800) {
-            $('.header').css('height', heightForHeader + 'px');
+        if($(window).width() >= 768) {
+            $('.header').css('min-height', heightForHeader + 'px');
         }
 
     let image_srcNotWebp,
@@ -39,8 +39,8 @@ $(function(){
             customMediaEvents();
             heightBg = $('.header__bg-image').width() / 2,
             heightForHeader = (heightBg - $(window).height()) + $(window).height();
-            if(heightForHeader >= 800) {
-                $('.header').css('height', heightForHeader + 'px');
+            if($(window).width() >= 768) {
+                $('.header').css('min-height', heightForHeader + 'px');
             }
             
         });
