@@ -2,12 +2,13 @@ $(function(){
 
     //$('.width-screen').html($(window).width())
 
-    let heightBg = $('.header__bg-image').width() / 2,
+    let valueHeight = 2.5,
+        heightBg = $('.header__bg--elem').width() / valueHeight,
         heightForHeader = (heightBg - $(window).height()) + $(window).height();
-    
-        if($(window).width() >= 768) {
-            $('.header').css('min-height', heightForHeader + 'px');
+        if($(window).width() >= 950) {
+            $('.header, .header__bg').css('min-height', heightForHeader + 'px');
         }
+        $('img').on('dragstart', function(event) { event.preventDefault(); });
 
     let image_srcNotWebp,
         image_src_bg = '.webp-bg';
@@ -40,11 +41,13 @@ $(function(){
 
         $(window).resize(function() {
             customMediaEvents();
-            heightBg = $('.header__bg-image').width() / 2,
+
+            heightBg = $('.header__bg--elem').width() / valueHeight,
             heightForHeader = (heightBg - $(window).height()) + $(window).height();
-            if($(window).width() >= 768) {
-                $('.header').css('min-height', heightForHeader + 'px');
+            if($(window).width() >= 950) {
+                $('.header, .header__bg').css('min-height', heightForHeader + 'px');
             }
+            
             
         });
 
@@ -240,6 +243,8 @@ $(function(){
 
         });
 
-        AOS.init();
+        AOS.init({
+            once: true
+        });
 
 });
