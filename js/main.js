@@ -62,7 +62,7 @@ $(function(){
                 heightBg = $('.header').height() + $('.header__info').height();
                 heightForHeader = (heightBg - $(window).height()) + $(window).height();
                 $('.header__bg').css('width',  heightBg + $('.header__info').height() + 'px');
-                $('.header').css('min-height', $('.header__bg--elem').height() + 'px');
+                $('.header').css('height', $('.header__bg--elem').height() + 'px');
             }
         }
         
