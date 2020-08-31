@@ -22,14 +22,7 @@ $(function(){
     })
     //$('.width-screen').html($(window).width())
 
-    let valueHeight = 2.5,
-        heightBg = $('.header__bg--elem').width() / valueHeight,
-        heightForHeader = (heightBg - $(window).height()) + $(window).height();
-        //widthForHeader = (heightBg - $(window).height()) + $(window).height() + $('.header__info').height();
-        if($(window).width() >= 950) {
-            $('.header').css('min-height', heightForHeader + 'px');
-            $('.header__bg').css('width', heightForHeader + $('.header__info').height() + 300 + 'px');
-        }
+    let valueHeight = 3.8, heightBg, heightForHeader;
         $('.img-lock').on('dragstart', function(event) { event.preventDefault(); }).contextmenu(function() {
             return false;
           });
@@ -55,26 +48,28 @@ $(function(){
                 $(this).css('background-image', 'url("' + image_srcNotWebp + '")');
             });
         });
-
-        function customMediaEvents() {
+        function customMediaEvents() { 
             if($(window).width() >= 950) {
+                heightBg = $('.header__bg--elem').width() / valueHeight;
+                heightBg = heightBg + $('.header__info').height();
+                heightForHeader = (heightBg - $(window).height()) + $(window).height();
+                $('.header__bg').css('width',  heightBg + $('.header__info').height() + 'px');
                 $('.menu__nav--burger, .menu__nav--list').removeClass('active');
                 $('body').removeClass('lock')
+                $('.header').css('min-height', heightBg - 300 + 'px');
+            }
+            else if ($(window).width() < 950) {
+                heightBg = $('.header').height() + $('.header__info').height();
+                heightForHeader = (heightBg - $(window).height()) + $(window).height();
+                $('.header__bg').css('width',  heightBg + $('.header__info').height() + 'px');
+                $('.header').css('min-height', $('.header__bg--elem').height() + 'px');
             }
         }
-
+        
         $(window).resize(function() {
             customMediaEvents();
-
-            heightBg = $('.header__bg--elem').width() / valueHeight,
-            heightForHeader = (heightBg - $(window).height()) + $(window).height();
-            if($(window).width() >= 950) {
-                $('.header').css('min-height', heightForHeader + 'px');
-                $('.header__bg').css('width', heightForHeader + $('.header__info').height() + 300 + 'px');
-            }
-            
-            
         });
+        customMediaEvents();
 
         function hHeader(settings) {
         
