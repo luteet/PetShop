@@ -1,14 +1,38 @@
 $(function(){
 
+    $('.slider__body').slick({
+        //lazyLoad: 'ondemand',
+        slidesToShow: 3,
+        centerMode: true,
+        initialSlide: 1,
+        adaptiveHeight: true,
+        centerPadding: '0px',
+        appendArrows: '.slider__buttons',
+        nextArrow: '<button type="button" class="slick-next slider__buttons--next btn-min" data-btn-to="right"><svg xmlns="http://www.w3.org/2000/svg" width="31.133" height="15.972" viewBox="0 0 31.133 15.972"><g transform="translate(1 1.414)"><path d="M400,1725H370.867" transform="translate(-370.867 -1718.629)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/><path d="M398.514,1708.629l-6.572,6.572,6.572,6.572" transform="translate(-391.943 -1708.629)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg></button>',
+        prevArrow: '<button type="button" class="slick-prev slider__buttons--prev btn-min" data-btn-to="left"><svg xmlns="http://www.w3.org/2000/svg" width="31.133" height="15.972" viewBox="0 0 31.133 15.972"><g transform="translate(1 1.414)"><path d="M400,1725H370.867" transform="translate(-370.867 -1718.629)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/><path d="M398.514,1708.629l-6.572,6.572,6.572,6.572" transform="translate(-391.943 -1708.629)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg></button>',
+        responsive: [
+            {
+              breakpoint: 1141,
+              settings: {
+                slidesToShow: 1,
+              }
+            }
+          ]
+        
+    })
     //$('.width-screen').html($(window).width())
 
     let valueHeight = 2.5,
         heightBg = $('.header__bg--elem').width() / valueHeight,
         heightForHeader = (heightBg - $(window).height()) + $(window).height();
+        //widthForHeader = (heightBg - $(window).height()) + $(window).height() + $('.header__info').height();
         if($(window).width() >= 950) {
-            $('.header, .header__bg').css('min-height', heightForHeader + 'px');
+            $('.header').css('min-height', heightForHeader + 'px');
+            $('.header__bg').css('width', heightForHeader + $('.header__info').height() + 300 + 'px');
         }
-        $('img').on('dragstart', function(event) { event.preventDefault(); });
+        $('.img-lock').on('dragstart', function(event) { event.preventDefault(); }).contextmenu(function() {
+            return false;
+          });
 
     let image_srcNotWebp,
         image_src_bg = '.webp-bg';
@@ -45,7 +69,8 @@ $(function(){
             heightBg = $('.header__bg--elem').width() / valueHeight,
             heightForHeader = (heightBg - $(window).height()) + $(window).height();
             if($(window).width() >= 950) {
-                $('.header, .header__bg').css('min-height', heightForHeader + 'px');
+                $('.header').css('min-height', heightForHeader + 'px');
+                $('.header__bg').css('width', heightForHeader + $('.header__info').height() + 300 + 'px');
             }
             
             
