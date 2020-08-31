@@ -20,7 +20,7 @@ $(function(){
         
     })
 
-    let valueHeight = 3.8, heightBg;
+    let valueHeight = 3, heightBg;
         $('.img-lock').on('dragstart', function(event) { event.preventDefault(); }).contextmenu(function() {
             return false;
           });
