@@ -1,7 +1,6 @@
 $(function(){
 
     $('.slider__body').slick({
-        //lazyLoad: 'ondemand',
         slidesToShow: 3,
         centerMode: true,
         initialSlide: 1,
@@ -20,9 +19,8 @@ $(function(){
           ]
         
     })
-    //$('.width-screen').html($(window).width())
 
-    let valueHeight = 3.8, heightBg, heightForHeader;
+    let valueHeight = 3.8, heightBg;
         $('.img-lock').on('dragstart', function(event) { event.preventDefault(); }).contextmenu(function() {
             return false;
           });
@@ -252,7 +250,7 @@ $(function(){
         hHeader({
             elemName: $('.menu'),
             classToHide: 'hide',
-            distanceHide: 350,
+            distanceHide: 300,
             distanceShow: 150,
             ifHeaderTop: ['top', 0]
         });
