@@ -20,7 +20,7 @@ $(function(){
         
     })
 
-    let valueHeight = 3, heightBg;
+    
         $('.img-lock').on('dragstart', function(event) { event.preventDefault(); }).contextmenu(function() {
             return false;
           });
@@ -46,7 +46,10 @@ $(function(){
                 $(this).css('background-image', 'url("' + image_srcNotWebp + '")');
             });
         });
+        let valueHeight = 3, heightBg, footerBg;
         function customMediaEvents() { 
+            /* footerBg = ($('.footer').width() + $('.footer__container').height()) * 2;
+            $('.footer__bg').css('min-width', footerBg + 'px'); */
             if($(window).width() >= 950) {
                 heightBg = $('.header__bg--elem').width() / valueHeight;
                 heightBg = heightBg + $('.header__info').height();
@@ -55,6 +58,7 @@ $(function(){
                 $('.menu__nav--burger, .menu__nav--list').removeClass('active');
                 $('body').removeClass('lock')
                 $('.header').css('min-height', heightBg - 300 + 'px');
+                
             }
             else if ($(window).width() < 950) {
                 heightBg = $('.header').height() + $('.header__info').height();
@@ -62,10 +66,17 @@ $(function(){
                 $('.header__bg').css('width',  heightBg + $('.header__info').height() + 'px');
                 $('.header').css('height', $('.header__bg--elem').height() + 'px');
             }
+            if($(window).width() >= 500) {
+                $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp(0)
+            }
         }
         
         $(window).resize(function() {
             customMediaEvents();
+        });
+        $('.header__info').resize(function() {
+            customMediaEvents();
+            console.log('resize');
         });
         customMediaEvents();
 
@@ -260,6 +271,22 @@ $(function(){
             $('body').toggleClass('lock')
 
         });
+
+
+        // ======================== slideMenuFooter ======================== 
+
+            $('.footer__links--title').on('click', function() {
+                if(!$(this).hasClass('active')) {
+                    $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp()
+                    $(this).addClass('active').next('.footer__links--list').addClass('active').slideDown()
+                }
+                else {
+                    $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp()
+                }
+                
+            });
+
+        // ======================== /slideMenuFooter ========================
 
         AOS.init({
             once: true
