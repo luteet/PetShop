@@ -24,27 +24,7 @@ $(function(){
             return false;
           });
 
-    let image_srcNotWebp,
-        image_src_bg = '.webp-bg';
-
-    function ThisIsWebP() {
-        let def = $.Deferred(), crimg = new Image();
-        crimg.onload = function () { def.resolve(); };
-        crimg.onerror = function () { def.reject(); };
-        crimg.src = "https://simpl.info/webp/cherry.webp";
-        return def.promise();
-    }
-
-    ThisIsWebP().then(function () {
-        $.each($(image_src_bg), function () {
-            return false;
-        });
-    }, function () {
-            $.each($(image_src_bg), function () {
-                image_srcNotWebp = $(this).data('notwebp');
-                $(this).css('background-image', 'url("' + image_srcNotWebp + '")');
-            });
-        });
+    
         let valueHeight = 3, heightBg;
         function customMediaEvents() { 
             if($(window).width() >= 950) {
