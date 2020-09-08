@@ -40,7 +40,7 @@ $(function(){
                 $('.header').css('height', $('.header__bg--elem').height() + 'px');
             }
             if($(window).width() >= 500) {
-                $('.footer__links--title').removeClass('active').next('.footer__links--list').slideUp(0)
+                $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp(0)
                 $('.footer__links--title').parent('.footer__links--item').removeClass('active');
             }
         }
@@ -142,17 +142,17 @@ $(function(){
         // ======================== slideMenuFooter ========================
         
             function closeList() {
-                $('.footer__links--title').removeClass('active').next('.footer__links--list').slideUp()
+                $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp()
             }
             $('.footer__links--title').on('click', function() {
                 if(!$(this).hasClass('active') && $(window).width() <= 500) {
                     closeList()
                     $('.footer__links--title').parent('.footer__links--item').removeClass('active');
                     $(this).parent('.footer__links--item').addClass('active');
-                    $(this).addClass('active').next('.footer__links--list').addClass('active').slideDown()
+                    $(this).addClass('active').next('.footer__links--list').addClass('active').slideDown();
                 }
                 else if($(this).hasClass('active') && $(window).width() <= 500) {
-                    $('.footer__links--title').removeClass('active').next('.footer__links--list').slideUp()
+                    $('.footer__links--title').removeClass('active').next('.footer__links--list').removeClass('active').slideUp();
                     
                 }
             });
@@ -239,7 +239,8 @@ $(function(){
 
 
         AOS.init({
-            once: true
+            once: true,
+            disable: "mobile"
         });
 
 });
